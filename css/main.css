@@ -81,4 +81,52 @@ h2 {
   text-align: center;
 }
 
-/* Main */
+/* Primera Sección */
+
+.first-section {
+  padding: 1.8rem 13.5rem 0;
+}
+
+.first-section h2 {
+  font-size: 1.7rem;
+}
+
+.font-weight {
+  font-weight: 700;
+}
+
+.purpose p {
+  padding: 1.3rem 0 2.3rem;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.purpose input {
+  background-color: rgb(244, 30, 7);
+  color: #fff;
+  border: 2px solid #f41e2e;
+  padding: 0.8rem 0.4rem;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.contact-us {
+  padding-left: 3rem;
+}
+
+.contact {
+  padding: 1rem 0 1.5rem;
+  line-height: 27px;
+}
+
+.contact i {
+  padding-right: 0.5rem;
+}
+
+.gray-icon {
+  color: rgb(121, 125, 127);
+}
+
+.green-icon {
+  color: rgb(40, 180, 99);
+}
