@@ -1,0 +1,46 @@
+header div, header li {
+  display: inline-block;
+}
+
+header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+.background-color {
+  background-color: rgb(244, 30, 116);
+}
+
+nav {
+  padding: 14px;
+  overflow: hidden;
+
+}
+
+.nav-left {
+  float: left;
+  font-size: 1.25rem;
+  padding-left: 7%;
+}
+
+.nav-left a:hover {
+  font-weight: 700;
+}
+
+.nav-right div{
+  float: right;
+  font-size: inherit;
+}
+
+.nav-right a {
+  padding: 5px 15px;
+  width: 100%;
+}
+
+
+.nav-right a:hover {
+  background-color: #fff;
+  color: rgb(244, 30, 116);
+  font-weight: 700;
+}
