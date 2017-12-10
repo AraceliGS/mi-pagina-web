@@ -1,3 +1,4 @@
+/* Header */
 header div, header li {
   display: inline-block;
 }
@@ -9,7 +10,7 @@ header a {
 }
 
 .background-color {
-  background-color: rgb(244, 30, 116);
+  background-color: rgb(244, 30, 7);
 }
 
 nav {
@@ -41,6 +42,43 @@ nav {
 
 .nav-right a:hover {
   background-color: #fff;
-  color: rgb(244, 30, 116);
+  color: rgb(244, 30, 7);
   font-weight: 700;
 }
+
+/* Imagen Principal*/
+
+.main-image {
+  background-image: url('../assets/images/principal-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 400px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  height: 100%;
+  padding: 7.5rem 0;
+}
+
+.line-height {
+  line-height: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Main */
