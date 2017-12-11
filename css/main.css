@@ -119,14 +119,44 @@ h2 {
   line-height: 27px;
 }
 
+.phone-div {
+  padding-top: 0.15rem;
+}
+
 .contact i {
   padding-right: 0.5rem;
 }
 
-.gray-icon {
-  color: rgb(121, 125, 127);
+/* AL ícono del teléfono y del correo les cambie a diferentes colores ya que les enseñé a algunas personas mi página y no les gustaba que estos dos íconos fueran grises y el resto de colores, sino que querían que todos fueran de colores */
+
+.yellow-icon {
+  color: rgb(241, 196, 15);
+}
+
+.orange-icon {
+  color: rgb(229, 108, 7);
 }
 
 .green-icon {
   color: rgb(40, 180, 99);
+  font-size: 1.1em;
+}
+
+.social-media i {
+  line-height: 27px;
+  font-size: 1.2em;
+  padding-right: 0.5rem;
+}
+
+.fa-facebook-official {
+  color: rgb(49, 107, 222);
+}
+
+.fa-twitter {
+  color: rgb(49, 191, 221);
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #000;
 }
