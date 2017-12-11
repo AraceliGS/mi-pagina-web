@@ -84,7 +84,7 @@ h2 {
 /* Primera Sección */
 
 .first-section {
-  padding: 2rem 22.5rem 2.5rem;
+  padding: 2.3rem 22.5rem 3.3rem;
 }
 
 .first-section h2 {
@@ -101,7 +101,7 @@ h2 {
   text-align: justify;
 }
 
-.purpose input {
+.button {
   background-color: rgb(244, 30, 7);
   color: #fff;
   border: 2px solid #f41e2e;
@@ -168,7 +168,7 @@ h2 {
 /* Segunda Sección */
 
 .second-section {
-  padding: 0 13.5rem 0;
+  padding: 0 13.5rem 3.3rem;
 }
 
 .box {
@@ -184,10 +184,12 @@ h2 {
 .image img {
   width: 100%; /*No utilizo la propiedad width porque mi imagen se pixelea y no se ve bien, en cambio cuando es max-width la imagen toma un width no mayor del propuesto(300px)*/
   height: 200px;
+  border-bottom: 1px solid #d7dbdd;
 }
 
 .second-section h3 {
   font-size: 1.3rem;
+  padding: 1rem 0;
 }
 
 .first-box {
@@ -196,4 +198,43 @@ h2 {
 
 .second-box {
   padding-left: 5%;
+}
+
+.sub-box {
+  padding: 0 1rem;
+  background-color: rgb(245, 176, 65);
+}
+
+/* Párrafos */
+
+.sub-box p {
+  text-align: justify;
+}
+
+.p-1 {
+  padding: 0 0 2.1rem;
+}
+
+.p-2 {
+  padding: 0 0 1rem;
+}
+
+.p-3 {
+  padding: 0 0 2.5rem;
+}
+
+.button-div {
+  border-top: 1px solid #d7dbdd;
+  padding: 0.9rem 0;
+  background-color: rgb(236, 158, 86);
+}
+
+.button-large {
+  background-color: rgb(244, 30, 7);
+  color: #fff;
+  border: 2px solid #f41e2e;
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+  outline: 0;
+  margin-left: 1rem;
 }
