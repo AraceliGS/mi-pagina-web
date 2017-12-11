@@ -1,7 +1,6 @@
 /* Menú Hamburguesa */
 
 .hamburguer-menu {
-  border: 1px solid #ffe953;
   padding: 0.3rem 1.3rem;
 }
 
@@ -274,6 +273,12 @@ footer {
   }
 }
 
+@media (max-width: 1200px) {
+  .nav-left {
+    padding-top: 0.6rem;
+  }
+}
+
 @media (max-width: 991px) {
   .contact-us {
     padding-left: 0;
@@ -284,5 +289,25 @@ footer {
     padding-left: 35%;
     padding-top: 5rem;
   }
+
+  .nav-left {
+    padding-top: 0.6rem;
+  }
+
+  .div {
+    width: 100%;
+  }
+
 }
 /* Para dispositivos móviles como el Galaxy S5 */
+
+@media (max-width: 550px) {
+  .div {
+    width: 180%;
+  }
+
+  .first-box, .second-box, .third-box {
+    padding-left: 49%;
+    padding-top: 5rem;
+  }
+}
