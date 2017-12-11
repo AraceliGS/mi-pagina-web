@@ -1,3 +1,10 @@
+/* Menú Hamburguesa */
+
+.hamburguer-menu {
+  border: 1px solid #ffe953;
+  padding: 0.3rem 1.3rem;
+}
+
 /* Header */
 header div, header li {
   display: inline-block;
@@ -243,4 +250,26 @@ h2 {
 footer {
   color: #fff;
   padding: 3rem;
+}
+
+@media (max-width: 1560px) {
+  .first-section {
+    padding: 3.5rem 10.5rem 4.8rem;
+  }
+
+  .second-section {
+    padding: 0 0 3.3rem 0;
+  }
+
+  .first-box {
+    padding-left: 5%;
+  }
+
+  .second-box {
+    padding-left: 3.5%;
+  }
+
+  .third-box {
+    padding-left: 2%;
+  }
 }
