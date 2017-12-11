@@ -84,7 +84,7 @@ h2 {
 /* Primera Sección */
 
 .first-section {
-  padding: 1.8rem 13.5rem 0;
+  padding: 2rem 22.5rem 2.5rem;
 }
 
 .first-section h2 {
@@ -142,6 +142,10 @@ h2 {
   font-size: 1.1em;
 }
 
+.e-mail {
+  color: rgb(52, 152, 255);
+}
+
 .social-media i {
   line-height: 27px;
   font-size: 1.2em;
@@ -159,4 +163,37 @@ h2 {
 .social-media a {
   text-decoration: none;
   color: #000;
+}
+
+/* Segunda Sección */
+
+.second-section {
+  padding: 0 13.5rem 0;
+}
+
+.box {
+  border: 1px solid #d7dbdd;
+  width: 302px; /*Es 3012, porque el borde es 1px y por lo tanto cada borde lateral(de los costados) vale 1px: 1+ 300 +1 = 302*/
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+}
+
+.image img {
+  width: 100%; /*No utilizo la propiedad width porque mi imagen se pixelea y no se ve bien, en cambio cuando es max-width la imagen toma un width no mayor del propuesto(300px)*/
+  height: 200px;
+}
+
+.second-section h3 {
+  font-size: 1.3rem;
+}
+
+.first-box {
+  padding-left: 10%;
+}
+
+.second-box {
+  padding-left: 5%;
 }
