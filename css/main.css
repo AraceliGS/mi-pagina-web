@@ -273,3 +273,16 @@ footer {
     padding-left: 2%;
   }
 }
+
+@media (max-width: 991px) {
+  .contact-us {
+    padding-left: 0;
+    padding-top: 5rem;
+  }
+
+  .first-box, .second-box, .third-box {
+    padding-left: 35%;
+    padding-top: 5rem;
+  }
+}
+/* Para dispositivos móviles como el Galaxy S5 */
