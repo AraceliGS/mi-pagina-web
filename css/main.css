@@ -39,7 +39,6 @@ nav {
   width: 100%;
 }
 
-
 .nav-right a:hover {
   background-color: #fff;
   color: rgb(244, 30, 7);
@@ -84,7 +83,7 @@ h2 {
 /* Primera Sección */
 
 .first-section {
-  padding: 2.3rem 22.5rem 3.3rem;
+  padding: 3.5rem 22.5rem 4.8rem;
 }
 
 .first-section h2 {
@@ -96,7 +95,7 @@ h2 {
 }
 
 .purpose p {
-  padding: 1.3rem 0 2.3rem;
+  padding: 1.3rem 0 2.2rem;
   line-height: 30px;
   text-align: justify;
 }
@@ -237,4 +236,11 @@ h2 {
   border-radius: 5px;
   outline: 0;
   margin-left: 1rem;
+}
+
+/* Footer */
+
+footer {
+  color: #fff;
+  padding: 3rem;
 }
