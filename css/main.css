@@ -54,7 +54,7 @@ nav {
 /* Imagen Principal*/
 
 .main-image {
-  background-image: url('../assets/images/principal-image.jpg');
+  background-image: url('../assets/images/hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
